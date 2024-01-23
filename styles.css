@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.div-container{
+   
+    padding: 10px;
+}
+#agregarTarea{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    font-style: italic;
+
+}
+#agregarTarea:hover{
+    background-color: rgb(10, 238, 219);
+}
+#ingresarTarea{
+    padding: 5px;
+    font-family: 'Karantina';
+    font-size: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+.ContenedorTareas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Karantina';
+    font-size: 25px;
+}
+.botton{
+    padding: 10px;
+    margin: 0px 10px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.botton:hover{
+    background-color: black;
+}
